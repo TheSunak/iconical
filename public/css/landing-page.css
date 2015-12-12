@@ -1,0 +1,627 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*Using Roboto font*/
+body,
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+}
+
+h1{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.elevatorpitch {
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+     text-align: justify;
+}
+
+p.header-paragraph-top{
+
+    font-weight: 600;
+       margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+        color: #34495E;
+
+}
+
+p.header-paragraph-bottom{
+
+    padding-top: 20px;
+    font-weight: 600;
+       margin: 0 auto;
+    font-size: 24px;
+    font-weight: 500;
+        color: #34495E;
+        padding-bottom: 50px
+
+}
+
+.closingcta {
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 400;
+    color: #34495E;
+         text-align: center;
+
+}
+
+/*This controls the logo image padding and style*/
+.top-bar{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.intro-header {
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 30px;
+    text-align: center;
+    /*color: #f8f8f8;*/
+    background: url(../img/hero_image_updated.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1000px
+}
+
+    #laptop{
+
+        display: none;
+        }
+
+/* This controls the size of the image */
+.intro-message {
+    position: relative;
+    /*this used to say 30% instead of pixels, if this messes up go back to 30% */
+    padding-top: 300px;
+    padding-bottom: 180px;
+}
+
+.form-group{
+    margin-top: 0px;
+        padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #34495E;
+    width: 48%;
+    margin: 0 auto;
+
+}
+
+.form-group.has-success{
+    color: #ECF0F1;
+    margin: 0 auto;
+    padding-top: -100px;
+}
+
+.form-group-bottom{
+    margin-top: 10px;
+        padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #34495E;
+    width: 48%;
+    margin: 0 auto;
+
+}
+
+.form-group-bottom.has-success{
+    color: #ECF0F1;
+    margin: 0 auto;
+    padding-top: -100px;
+}
+
+/* Success text styling*/
+.success-text{
+
+color: #ECF0F1;
+font-size: 20px;
+text-align: center;
+
+}
+
+label.error {
+    color: red;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0.5em;
+    width: 100%;
+    float: none;
+}
+
+.image-features {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive.analytics{
+    display: block;
+    margin: 0 auto;
+}
+
+.col-xs-12.col-sm-4{
+
+    padding-top: 20px;
+}
+
+
+
+form {
+    display: inline; 
+}
+
+.form-control.email-field{
+    width: 260px;
+    margin-right: 20px;
+}
+
+.form-control.email-field.bottom{
+    width: 260px;
+    margin-right: 20px;
+}
+
+
+
+
+.form-control.email-field:focus{
+
+    outline: none !important;
+    border:1px solid #F39C12;
+    box-shadow: 0 0 10px #F39C12;
+
+}
+
+.form-control-bottom.email-field{
+    width: 260px;
+    margin-right: 20px;
+}
+
+.form-control-bottom.email-field.bottom{
+    width: 260px;
+    margin-right: 20px;
+}
+
+
+.form-control-bottom.email-field:focus{
+
+    outline: none !important;
+    border:1px solid #F39C12;
+    box-shadow: 0 0 10px #F39C12;
+
+}
+
+li{
+    padding-top: 10px;
+}
+
+.preview-text{
+    margin-top: 20px;
+    color: #ECF0F1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* This is the main h1 text with positioning*/
+
+.intro-text {
+    padding-bottom: 30px;
+
+}
+
+.intro-text > h1 {
+    padding-top: 80px;
+    display: block;@
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
+    font-size: 52px;
+    color: #34495E;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/* This is the main h3 text*/
+.intro-text > h3 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
+    font-size: 27px;
+    line-height: 0.0;
+    font-weight: 700;
+    color: #34495E;
+}
+
+.email-input {
+
+    height: 100px;
+    width:240px;
+    text-align: center;
+    padding-left: 0px;
+   
+}
+
+.btn.btn-primary.btn-lg.btn-block{
+        width: 170px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        font-weight: 700;
+
+    }
+
+.btn.btn-primary.btn-lg.btn-block:hover{
+      background-color: #BDC3C7;
+
+    }
+
+#sections-features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content-section-a {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+.btn.btn-block{
+    background-color: #F39C12;
+
+
+}
+
+.lead.bottom {
+    margin: 0 auto;
+    padding-bottom: 20px; 
+}
+
+.footer-menu-divider{
+    color: #ECF0F1
+
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    color: #ECF0F1;
+}
+
+a.footer{
+    color: #F39C12;
+}
+
+.footer > img:hover{
+     border: solid 2px #F39C12;
+
+
+}
+
+.content-section-pitch {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #34495E;
+     margin: 0 auto;  
+}
+
+
+@media(max-width:768px) {
+    
+    .intro-header {
+        padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        /*color: #f8f8f8;*/
+        background: url(../img/hero_image_mobile.jpg) no-repeat center center;
+        background-size: cover;
+        height: 1050px;
+        
+    }   
+
+    #laptop{
+
+        display: inline;
+        }
+
+
+    .intro-message {
+        padding-top: 120%;
+        padding-bottom: 100px;
+
+    }
+
+    .form-group{
+        width: 230px;
+        height: 100px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-bottom: 65px;
+    
+    }
+
+    .form-group-bottom{
+        width: 230px;
+        height: 100px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-bottom: 65px;
+    
+    }
+
+
+    .form-group.has-success{
+    color: #ECF0F1;
+    
+    }
+
+    .form-group-bottom.has-success{
+    color: #ECF0F1;
+    
+    }
+
+     label.error { m argin-left: 0; display: block; }
+
+
+    .btn.btn-primary.btn-lg.btn-block{
+        width: 168px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        height: 34px;
+
+
+    }
+
+    .preview-text{
+        color: #ECF0F1;
+    }
+
+    .form-control.email-field {
+        width: 200px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+.form-control-bottom.email-field {
+        width: 20px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .email-input {
+
+    height: 30px;
+    width:180px;
+    text-align: center;
+    margin: 0 auto;   
+    }
+
+    .success-text{
+
+        color: #ECF0F1;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+
+    .intro-text > h1 {
+        padding-top: 10px;
+        font-size:32px;
+    }
+
+    .intro-text > h3 {
+        padding-top: 20px;
+         padding-bottom: 20px;
+        font-size: 24px;
+        line-height: 0.9
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    a.footer{
+        font-size: 14px;
+    }
+
+    .copyright.text-muted.small{
+        font-size: 10px;
+    }
+
+.elevatorpitch {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+     text-align: justify;
+}
+
+
+
+
+
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-pitch {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #34495E;
+     margin: 0 auto;  
+}
+
+
+.content-section-a {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: #ECF0F1;
+     margin: 0 auto;  
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #34495E;
+     margin: 0 auto;
+     color: white;  
+     font-size: 20px;
+}
+
+.content-section-d {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #white;
+     margin: 0 auto;
+     color: white;  
+     font-size: 20px;
+     text-align: center
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.img-responsive.analytics{
+    margin-left:30px;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+
+
+
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #34495E;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
