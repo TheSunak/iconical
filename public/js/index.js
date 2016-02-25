@@ -12,3 +12,10 @@
     $('#faicon').css("color",$('#color').val());
 
   });
+
+   $('#flatuidrop').change(function() {
+    
+    $('#faicon').css("color",$('#flatuidrop').val());
+
+  });
+
