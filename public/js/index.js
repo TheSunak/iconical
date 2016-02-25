@@ -19,3 +19,9 @@
 
   });
 
+  $('#background').change(function() {
+    
+    $('body').css("background-color",$('#background').val());
+
+  });
+
